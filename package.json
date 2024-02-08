@@ -1,0 +1,28 @@
+{
+  "name": "drizzle-t3-oss-env",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:push": "drizzle-kit push:sqlite --config drizzle.config.ts"
+  },
+  "dependencies": {
+    "@t3-oss/env-nextjs": "^0.9.2",
+    "better-sqlite3": "^9.4.0",
+    "drizzle-orm": "^0.29.3",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "drizzle-kit": "^0.20.14",
+    "typescript": "^5"
+  }
+}
